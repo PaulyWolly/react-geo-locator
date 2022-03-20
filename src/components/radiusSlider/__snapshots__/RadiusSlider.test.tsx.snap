@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders <RadiusSlider /> component 1`] = `
+<DocumentFragment>
+  <div
+    class="slider-wrapper"
+  >
+    <h4>
+       Pick a geo-fencing radius
+    </h4>
+    <div
+      class="ant-slider ant-slider-with-marks slider"
+    >
+      <div
+        class="ant-slider-rail"
+      />
+      <div
+        class="ant-slider-track"
+        style="left: 0%; width: 44.44444444444444%;"
+      />
+      <div
+        class="ant-slider-step"
+      >
+        <span
+          class="ant-slider-dot ant-slider-dot-active"
+          style="left: 0%;"
+        />
+        <span
+          class="ant-slider-dot"
+          style="left: 100%;"
+        />
+      </div>
+      <div
+        aria-disabled="false"
+        aria-valuemax="50"
+        aria-valuemin="5"
+        aria-valuenow="25"
+        class="ant-slider-handle"
+        role="slider"
+        style="left: 44.44444444444444%; transform: translateX(-50%);"
+        tabindex="0"
+      />
+      <div
+        class="ant-slider-mark"
+      >
+        <span
+          class="ant-slider-mark-text ant-slider-mark-text-active"
+          style="transform: translateX(-50%); left: 0%;"
+        >
+          5km
+        </span>
+        <span
+          class="ant-slider-mark-text"
+          style="transform: translateX(-50%); left: 100%; color: rgba(0, 0, 0, 0.7);"
+        >
+          <strong>
+            50Km
+          </strong>
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
